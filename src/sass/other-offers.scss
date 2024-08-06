@@ -1,0 +1,28 @@
+main{
+    margin-bottom: 30px;
+}
+
+.offer {
+	text-align: center;
+	.offer-title {
+        display: inline-block;
+		position: relative;
+		margin: 40px auto;
+		text-transform: uppercase;
+		font-size: 24px;
+		font-weight: 300;
+        transition: transform .3s;
+		&::before {
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            width: 100%;
+            height: 2px;
+            background-color: #1cd98a;
+            transform: translateX(-50%);
+			content: '';
+
+		}
+
+	}
+}

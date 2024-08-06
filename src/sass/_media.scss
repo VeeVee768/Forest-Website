@@ -1,0 +1,136 @@
+@media (max-width: 400px) {
+	.adventure-hero {
+		&-text {
+			&::before {
+				width: 99%;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.title {
+		font-size: 36px;
+	}
+
+	.hero-bg {
+		background-image: url('../img/forest-hero-big.jpg');
+	}
+
+	.about-us {
+		&-container {
+			.about-us-img {
+				height: 250px;
+			}
+		}
+	}
+
+	.footer {
+		.footer-container {
+			display: grid;
+			grid-template-columns: 40% repeat(3, 1fr);
+
+			.footer-list {
+				text-align: left;
+			}
+		}
+	}
+
+	.contact-wrapper {
+		.contact-form {
+			width: 600px;
+		}
+	}
+
+	.contact-info {
+		.contact-title {
+			font-size: 24px;
+		}
+	}
+
+	iframe {
+		width: 600px;
+	}
+}
+
+@media (min-width: 992px) {
+	.nav {
+		.hamburger-menu {
+			display: none;
+		}
+
+		.nav-list {
+			display: flex;
+		}
+	}
+
+	.mobile-menu {
+		display: none;
+	}
+
+	.hero-bg {
+		height: 400px;
+		.hero-text {
+			left: 15%;
+		}
+	}
+
+	.about-us {
+		&-container {
+			flex-direction: row;
+
+			.about-us-img {
+				height: 300px;
+				width: 40%;
+				background-image: url(/src/img/about-us-big.jpg);
+			}
+
+			.about-us-text {
+				width: 40%;
+				margin-top: 0;
+			}
+		}
+	}
+
+	.adventure-hero {
+		height: 250px;
+
+		&-text {
+			font-size: 36px;
+
+			&::before {
+				width: 80%;
+			}
+		}
+	}
+
+	.card-container {
+		flex-direction: row;
+
+		.card {
+			margin: 0 20px;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+
+	.contact-wrapper {
+		.contact-form {
+			width: 800px;
+		}
+	}
+
+	iframe {
+		width: 800px;
+	}
+
+	.contact-info {
+		.contact-title {
+			font-size: 28px;
+		}
+	}
+
+	
+}

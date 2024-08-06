@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest - formularz kontaktowy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+</head>
+
+<body class="contact-page">
+    <nav class="mobile-menu">
+    <a href="index.html#home">home</a>
+    <a href="index.html#about-us">o nas</a>
+    <a href="index.html#offers">oferty</a>
+    <a href="contact-us.html#contact">kontakt</a>
+</nav>
+
+
+
+<nav class="nav">
+    <h1 class="title"><i class="fa-solid fa-tree"></i>Forest</h1>
+    <div class="hamburger-menu">
+        <div class="menu-line line"></div>
+        <div class="menu-line line"></div>
+        <div class="menu-line line"></div>
+    </div>
+    <ul class="nav-list">
+        <li class="nav-item"><a href="index.html#home" class="active" id="nav-desktop-home">home</a></li>
+        <li class="nav-item"><a href="index.html#about-us" id="nav-desktop-about-us">o nas</a></li>
+        <li class="nav-item"><a href="index.html#offers" id="nav-desktop-offers">oferty</a></li>
+        <li class="nav-item"><a href="contact-us.html#contact" id="nav-desktop-contact">kontakt</a></li>
+    </ul>
+ 
+</nav>
+
+
+
+    <div class="hero-bg scrollspy" id="home">
+    <div class="hero-text">
+        <p class="header-title">Forest Group</p>
+        <p class="header-p">Najpiękniejszy park w Twojej okolicy!</p>
+    </div>
+
+</div>
+
+    <section class="section wrapper scrollspy-contact" id="contact">
+        <h2 class="section-title">skontaktuj się z nami! <i class="fa-solid fa-envelope"></i></h2>
+
+        <div class="contact-wrapper">
+            <form class="contact-form">
+                <div class="contact-box">
+                    <label for="name">Imię i nazwisko:</label>
+                    <input type="text" id="name" placeholder="Podaj imię i nazwisko">
+                    <p class="error-text">error</p>
+                </div>
+                <div class="contact-box">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Podaj adres e-mail">
+                    <p class="error-text">error</p>
+                </div>
+                <div class="contact-box">
+                    <label for="message">Wiadomość:</label>
+                    <textarea id="message" placeholder="Wpisz treść wiadomości"></textarea>
+                    <p class="error-text">error</p>
+                </div>
+
+                <button class="btn send-btn">Wyślij</button>
+
+                <div class="popup">
+                    <p>Formularz został poprawnie wysłany</p>
+                    <button class="btn close-btn">Zamknij</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h3 class="contact-title">adres firmy</h3>
+            <p class="contact-street">ul.Jasnogórska 2</p>
+            <p class="contact-code">35-358 Kraków</p>
+        </div>
+
+        <div class="contact-info">
+            <h3 class="contact-title">kontakt</h3>
+            <p class="contact-mobile">+48 000 000 000</p>
+            <p class="contact-email">forestgruop@mail.com</p>
+        </div>
+
+
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5119.796100177739!2d19.890269275407256!3d50.08819561338223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2sde!4v1722242671309!5m2!1spl!2sde"
+            height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="contact-info">
+            <h3 class="contact-title">social media</h3>
+            <div class="social-media">
+                <p><i class="fa-brands fa-square-facebook"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+                <p><i class="fa-brands fa-x-twitter"></i></p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer class="footer sec">
+    <div class="footer-container">
+        <h2 class="title"><i class="fa-solid fa-tree"></i>Forest</h2>
+        <ul class="footer-list one">
+            <li class="footer-list-title">O nas</li>
+            <li class="footer-list-item">Historia</li>
+            <li class="footer-list-item">Parki</li>
+            <li class="footer-list-item">Opinie</li>
+        </ul>
+        <ul class="footer-list two">
+            <li class="footer-list-title">Nasza firma</li>
+            <li class="footer-list-item">Praca</li>
+            <li class="footer-list-item">Kadry</li>
+            <li class="footer-list-item">Zarząd</li>
+        </ul>
+        <ul class="footer-list three">
+            <li class="footer-list-title">Dokumenty</li>
+            <li class="footer-list-item">Wnioski</li>
+            <li class="footer-list-item">Rezerwacje</li>
+        </ul>
+    </div>
+
+    <hr>
+    <div class="footer-company">
+        <p class="company"><i class="fa-regular fa-copyright"></i><span class="footer-year"> </span>Forest Group Company Ltd.</p>
+    </div>
+    
+</footer>
+
+
+    <script src="https://kit.fontawesome.com/fec480bcf3.js" crossorigin="anonymous"></script>
+    <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>

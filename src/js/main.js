@@ -118,6 +118,7 @@ const checkErrors = () => {
 
 	if (errorCount === 0) {
 		popup.classList.add('show-popup')
+		window.scrollTo(0, 0)
 	}
 }
 
@@ -138,5 +139,5 @@ sendBtn.addEventListener('click', e => {
 	checkForm([username, email, message])
 	checkEmail(email)
 	checkErrors()
-	window.scrollTo(0, 0)
+	
 })

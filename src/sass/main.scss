@@ -624,4 +624,17 @@ iframe{
 	margin-bottom: 15px;
 }
 
+.error-404-txt{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.error-btn{
+	margin-bottom: 20px;
+	a{
+		text-decoration: none;
+		color: var(--second-color)
+	}
+}
+
 @import 'media';

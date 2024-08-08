@@ -48,10 +48,19 @@ header {
 	max-width: 1200px;
 }
 
+.home {
+	text-decoration: none;
+}
+
 .title {
 	font-size: 30px;
 	font-weight: 400;
 	color: var(--first-color);
+	transition: color 0.3s;
+	&:hover {
+		color: var(--hover-color);
+	}
+
 	i {
 		margin: 0 10px;
 	}
@@ -126,12 +135,7 @@ header {
 		justify-content: space-around;
 		list-style: none;
 
-		
-
 		.nav-item {
-
-			
-
 			a {
 				padding: 30px 20px;
 				font-weight: 400;
@@ -151,12 +155,8 @@ header {
 				background-color: var(--white-color);
 			}
 		}
-
-		
 	}
 }
-
-
 
 .mobile-menu {
 	width: 100%;
@@ -198,8 +198,6 @@ header {
 		}
 	}
 }
-
-
 
 // HERO-BG
 
@@ -550,11 +548,12 @@ header {
 			}
 		}
 
-		.error input, .error textarea{
+		.error input,
+		.error textarea {
 			border: 1px solid var(--hover-color);
-			background-color: rgba(20, 184, 116, .1);
+			background-color: rgba(20, 184, 116, 0.1);
 		}
-		.error .error-text{
+		.error .error-text {
 			visibility: visible;
 		}
 
@@ -582,8 +581,6 @@ header {
 			.btn {
 				margin: 15px 0;
 			}
-
-			
 		}
 
 		.show-popup {
@@ -592,48 +589,48 @@ header {
 	}
 }
 
-.contact-info{
+.contact-info {
 	margin: 20px 0;
-	.contact-title{
+	.contact-title {
 		text-transform: uppercase;
 		margin-bottom: 15px;
 		font-size: 20px;
 		font-weight: 400;
 	}
 
-	.social-media{
+	.social-media {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 
-		i{
+		i {
 			font-size: 36px;
 			padding: 20px;
 			cursor: pointer;
-			transition: color .3s;
+			transition: color 0.3s;
 
-			&:hover{
+			&:hover {
 				color: var(--hover-color);
 			}
 		}
 	}
 }
 
-iframe{
+iframe {
 	width: 300px;
 	margin-bottom: 15px;
 }
 
-.error-404-txt{
+.error-404-txt {
 	font-size: 20px;
 	margin-bottom: 20px;
 }
 
-.error-btn{
+.error-btn {
 	margin-bottom: 20px;
-	a{
+	a {
 		text-decoration: none;
-		color: var(--second-color)
+		color: var(--second-color);
 	}
 }
 

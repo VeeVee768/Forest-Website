@@ -13,6 +13,8 @@ const sendBtn = document.querySelector('.send-btn')
 const closeBtn = document.querySelector('.close-btn')
 const popup = document.querySelector('.popup')
 
+const footerYear = document.querySelector('.footer-year')
+
 const showMobileMenu = params => {
 	mobileMenu.classList.add('mobile-menu-active')
 	hamburgerLines.forEach(line => {
@@ -118,6 +120,13 @@ const checkErrors = () => {
 		popup.classList.add('show-popup')
 	}
 }
+
+const handleCurrentYear = () => {
+	const year = (new Date).getFullYear()
+	footerYear.innerHTML = year
+}
+
+handleCurrentYear()
 
 hamburgerMenu.addEventListener('click', showMobileMenu)
 mobileMenuItem.forEach(item => item.addEventListener('click', closeMobileMenu))

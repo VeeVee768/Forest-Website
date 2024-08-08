@@ -250,7 +250,7 @@ header {
 		.about-us-img {
 			height: 200px;
 			width: 80%;
-			background-image: url(/src/img/about-us-small.jpg);
+			background-image: url('../img/about-us-small.jpg');
 			background-size: cover;
 			background-position: center;
 		}
@@ -282,7 +282,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	height: 300px;
-	background-image: url(/src/img/adventure-big.jpg);
+	background-image: url('../img/adventure-big.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

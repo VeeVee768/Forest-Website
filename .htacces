@@ -4,4 +4,4 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 RewriteCond %{ENV:HTTPS} !on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 RewriteRule ^index\.html$ / [NC,R,L]
-ErrorDocument 404 /404-error.html
+ErrorDocument 404 /404.html

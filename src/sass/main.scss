@@ -15,13 +15,14 @@
 
 @mixin btn-style {
 	position: relative;
+	display: inline-block;
 	padding: 8px 40px;
-	border: 1px solid transparent;
 	border-radius: 5px;
 	background-color: transparent;
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	transition: background-color 0.5s;
+	cursor: pointer;
 }
 
 body {
@@ -336,11 +337,9 @@ header {
 			margin-top: 30px;
 		}
 		.click {
-			margin-top: 15px;
-			a {
-				text-decoration: none;
-				color: var(--second-color);
-			}
+			margin: 15px;
+			text-decoration: none;
+			color: var(--second-color);
 		}
 	}
 }

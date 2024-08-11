@@ -627,10 +627,9 @@ iframe {
 
 .error-btn {
 	margin-bottom: 20px;
-	a {
-		text-decoration: none;
-		color: var(--second-color);
-	}
+
+	text-decoration: none;
+	color: var(--second-color);
 }
 
 @import 'media';

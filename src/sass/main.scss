@@ -14,6 +14,7 @@
 }
 
 @mixin btn-style {
+	text-transform: uppercase;
 	position: relative;
 	display: inline-block;
 	padding: 8px 40px;
@@ -204,7 +205,7 @@ header {
 
 .hero-bg {
 	position: relative;
-	height: 100vh;
+	height: 70vh;
 	background-image: url('../img/forest-hero-small.jpg');
 	background-position: center;
 	background-size: cover;
@@ -222,7 +223,8 @@ header {
 	.hero-text {
 		position: absolute;
 		top: 50%;
-		left: 10%;
+		transform: translateY(-50%);
+		left: 5%;
 		color: var(--white-color);
 		z-index: 12;
 
@@ -512,7 +514,7 @@ header {
 			flex-direction: column;
 			justify-content: center;
 			align-items: flex-start;
-			margin: 15px 0;
+			
 
 			label {
 				font-size: 22px;
@@ -536,7 +538,7 @@ header {
 			}
 
 			.btn {
-				margin: 20px 0;
+				margin: 20px auto;
 			}
 
 			.error-text {
@@ -595,6 +597,9 @@ header {
 		margin-bottom: 15px;
 		font-size: 20px;
 		font-weight: 400;
+		i{
+			color: var(--first-color);
+		}
 	}
 
 	.social-media {
@@ -617,7 +622,7 @@ header {
 
 iframe {
 	width: 300px;
-	margin-bottom: 15px;
+	margin: 20px auto;
 }
 
 .error-404-txt {
